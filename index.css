@@ -1,0 +1,157 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main_header {
+  display: flex;
+  gap: 5%;
+  background-color: #f8efea;
+  padding: 1% 20% 1% 20%;
+}
+
+.header_nav {
+  margin-top: auto;
+}
+
+.header_nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+.header_nav ul li:hover {
+  cursor: pointer;
+  color: #ce8460;
+}
+
+.header_icons {
+  margin-top: auto;
+}
+.header_icons ul {
+  display: flex;
+  gap: 30px;
+}
+
+.header_icons i {
+  cursor: pointer;
+}
+
+.corosal_images {
+  margin: 20px;
+}
+
+.card-img-overlay {
+  width: 550px;
+  height: 130px;
+  margin: 450px 0 25px 25px;
+  text-align: center;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.card-img-overlay h6 {
+  color: #ce8460;
+}
+
+.card-img-overlay h4 {
+  font-weight: 700;
+}
+.card-img-overlay h4:hover {
+  cursor: pointer;
+  color: #ce8460;
+}
+.image_grid_container {
+  padding: 1% 20% 1% 20%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+.card-img-overlay span {
+  font-style: "Open Sans", sans-serif;
+  color: #575769;
+}
+
+.images_grid {
+  margin-top: 25px;
+}
+
+.image_grid_container img {
+  height: 255px;
+  width: 255px;
+}
+
+.image_info h6 {
+  color: #ce8460;
+  margin-top: 15px;
+}
+
+.images_grid span {
+  font-size: 12px;
+  font-style: "Open Sans", sans-serif;
+  color: #575769;
+}
+
+.image_info h3:hover {
+  cursor: pointer;
+  color: #ce8460;
+}
+
+.footer_container {
+  background-color: #f5f5f5;
+  margin-top: 15px;
+  padding: 60px;
+  text-align: center;
+}
+.footer_head {
+  margin-top: 20px;
+}
+
+#input_email {
+  width: 450px;
+  height: 45px;
+  padding: 20px;
+  border: none;
+}
+
+#footer_btn {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+  margin-left: 10px;
+}
+
+hr {
+  margin: 3% 20% 2% 20%;
+}
+
+.footer_lists ul {
+  display: flex;
+  gap: 20px;
+  color: #666;
+  margin-left: 550px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.footer_lists ul li:hover {
+  cursor: pointer;
+  color: #ce8460;
+}
+
+.footer_last {
+  color: #666;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer_last span {
+  color: black;
+}
+
+.corosal_btn{
+    background-color: black;
+    color: black;
+}
